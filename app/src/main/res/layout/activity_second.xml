@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="3dp"
+        android:text="Achievements"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Pace Setter"
+        android:textColor="#9C27B0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="-81dp"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@id/textView3"
+        android:text="Lyric Master"
+        android:textColor="#9C27B0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignEnd="@id/textView1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="-25dp"
+        android:text="Category Champion"
+        android:textColor="#9C27B0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="27dp"
+        android:text="Tournamnet Winner"
+        android:textColor="#9C27B0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:text="All Around the World"
+        android:textColor="#9C27B0" />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="btnGoMain"
+        android:text="Return to Menu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"/>
+
+
+
+
+</RelativeLayout>
